@@ -1,0 +1,87 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?"],
+     "responses": ["I'am your bot assistent here to help you with MAIT website. Visit here for any issues https://mait.ac.in/"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me MAIT_BUDDY"]
+    },
+    {"tag": "fee",
+    "patterns": ["How to pay hostel fees", "How to pay college fees", "College fees structure", "Hostel fees structure"],
+    "responses": ["https://mait.ac.in/index.php/fee-structure-m visit this for all the informations. https://mait.ac.in/index.php/online-fee visit here for paying the fees"]
+    },
+    {"tag": "faculty",
+    "patterns": ["who all are the facultly of MAIT", "who all are the facultly of CSE", "who all are the facultly of ECE", "who all are the facultly of EEE", "who all are the facultly of MAE", "who all are the facultly of IT"],
+    "responses": ["https://apsc.mait.ac.in/index.php/people/faculty visit here to know all the faculty of MAIT", "https://cse.mait.ac.in/index.php/people/faculty/profile visit here to know all the faculty of cse", "https://ece.mait.ac.in/index.php/people/faculty/faculty-profiles visit here to know all the faculty of cse", "https://eee.mait.ac.in/index.php/faculty visit here to know all the faculty of EEE", "http://mae.mait.ac.in/index.php/people/faculty visit here to know all the faculty of MAE", "https://www.google.com/search?q=facutlty+mait&oq=facutlty+mait&aqs=chrome..69i57.3579j0j7&sourceid=chrome&ie=UTF-8 visit here to know all the faculty of IT"]
+    },
+    {"tag": "Gyaan",
+    "patterns": ["what is the vision of mait", "what is the mission of mait", "what is the value of mait"], 
+    "responses": ["To nurture young minds in a learning environment of high academic value and imbibe spiritual and ethical values with technological and management competence.", " Visit here https://mait.ac.in/index.php/institute/mission", "Visit here https://mait.ac.in/index.php/institute/values"]
+    },
+    {"tag": "Ragging",
+    "patterns": ["What are steps take by mait against ragging"],
+    "responses": ["https://mait.ac.in/images/Anti-Ragging-Measures-2022.pdf"]
+    },
+    {"tag": "Achievments",
+    "patterns": ["What are the achievements of mait"],
+    "responses": ["https://mait.ac.in/index.php/institute/achievements"]
+    },
+    {"tag": "departments",
+    "patterns": ["What all are the departments of MAIT"],
+    "responses": ["CSE, ECE, EEE, IT, MAE, ME, CST, ITE, AIML, AIDS"]
+    },
+    {"tag": "Academic calander",
+    "patterns": ["What is the academic calender of MAIT"],
+    "responses": ["http://ipu.ac.in/Pubinfo2022/nt4182120722.pdf"]
+    },
+    {"tag": "Syllabus",
+    "patterns": ["What is the syllabus"],
+    "responses": ["https://mait.ac.in/index.php/academics/syllabus"]
+    },
+    {"tag": "societies",
+    "patterns": ["What are the socities of MAIT"],
+    "responses": ["https://mait.ac.in/index.php/societies/technical Visit here for Technical socities"]
+    },
+    {"tag": "Facilities",
+    "patterns": ["What are the sports facilities of MAIT"],
+    "responses": ["https://mait.ac.in/index.php/sports-facilities-m here are the sports facilities provided by mait"]
+    },
+    {"tag": "Photo galary",
+    "patterns": ["Some photos of MAIT"],
+    "responses": ["http://gallery.mait.ac.in/gallery3/ follow here for photo galary of mait"]
+    },
+    {"tag": "Placements",
+    "patterns": ["How are the placement of MAIT"],
+    "responses": ["https://mait.ac.in/index.php/placements/about-placements follow here for placement details of MAIT"]
+    },
+    {"tag": "contact",
+    "patterns": ["How to contact mait authority"],
+    "responses": ["https://mait.ac.in/index.php/contact-us/director-office follow here to contact mait admins"]
+    },
+    {"tag": "Socials",
+    "patterns": ["What are soical of MAIT"],
+    "responses": ["https://www.facebook.com/maitdel/friends follow MAIT on facebook"]
+    },
+    {"tag": "Scholarships",
+    "patterns": ["Does MAIT provide scolarship"],
+    "responses": ["https://scholarships.gov.in/ follow this for scholarship or https://www.vidyalakshmi.co.in/Students/ follow this for education loan"]
+    },
+    {"tag": "NOTICES",
+    "patterns": ["What are some latest Notices of mait"],
+    "responses": ["Follow here for mait notices https://mait.ac.in/index.php/notices"]
+    }
+]
+}
